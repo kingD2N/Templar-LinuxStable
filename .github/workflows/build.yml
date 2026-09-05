@@ -41,9 +41,8 @@ on:
         description: "kernel"
         required: false
         type: choice
-        default: 5.10.267-MIUI14™-KERNEL
+        default: Templar-LinuxStable
         options:
-          - MIUI14™-KERNEL
           - Templar-LinuxStable
 
       susfs:
