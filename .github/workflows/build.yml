@@ -326,7 +326,11 @@ jobs:
             cp ./kernel_patches/fs/* ../fs/
             cp ./kernel_patches/include/linux/* ../include/linux/
             cd ..
-            patch -p1 < 50_add_susfs_in_gki-android12-5.10.patch
+            if ! patch -p1 < 50_add_susfs_in_gki-android12-5.10.patch; then
+              echo "::error::Patch SUSFS ada hunk yang REJECTED (bukan cuma offset/fuzz biasa - itu tetap exit 0). Isi file .rej di bawah nunjukkin persis hunk & baris mana yang bentrok sama kernel_source saat ini:"
+              find . -name "*.rej" -print -exec sh -c 'echo "--- {} ---"; cat "{}"' \;
+              exit 1
+            fi
             echo "CONFIG_KSU_SUSFS=y" >> arch/arm64/configs/gki_defconfig
             echo "CONFIG_KSU_SUSFS_SUS_PATH=y" >> arch/arm64/configs/gki_defconfig
             echo "CONFIG_KSU_SUSFS_SUS_MOUNT=y" >> arch/arm64/configs/gki_defconfig
