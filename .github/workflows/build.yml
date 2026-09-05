@@ -13,9 +13,8 @@ on:
         description: "Branch on kernel_source above. Templar-OSS = tree yang beneran sudah digabung dgn config resmi Xiaomi ingres-s-oss (punya vendor/waipio_GKI.config, xiaomi_GKI.config, debugfs.config). Templar-LinuxStable TIDAK punya overlay vendor Xiaomi sama sekali (cuma fragment AOSP generik) - jangan pakai buat build device ini."
         required: true
         type: choice
-        default: "Templar-OSS"
+        default: "Templar-LinuxStable"
         options :
-           - Templar-OSS
            - Templar-LinuxStable
            
       devicetree_branch:
