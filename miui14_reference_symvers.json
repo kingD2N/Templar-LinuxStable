@@ -1,0 +1,4255 @@
+{
+ "module_layout": {
+  "crc": "0x7c24b32d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "memset": {
+  "crc": "0xdcb764ad",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "memcpy": {
+  "crc": "0x4829a47e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "__stack_chk_guard": {
+  "crc": "0x8f678b07",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "__stack_chk_fail": {
+  "crc": "0x98a9d10c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "system_wq": {
+  "crc": "0x2d3385d3",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "driver_unregister": {
+  "crc": "0xc6a256d1",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "irq_set_irq_wake": {
+  "crc": "0xce2840e7",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "free_irq": {
+  "crc": "0xc1514a3b",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "debugfs_remove": {
+  "crc": "0x5243bc7e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "sysfs_remove_group": {
+  "crc": "0xe8415b1d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "gpiod_direction_output_raw": {
+  "crc": "0x63baf885",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "gpiod_direction_input": {
+  "crc": "0x1a93828e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "gpio_free": {
+  "crc": "0xfe990052",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "gpio_request": {
+  "crc": "0x47229b5c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "finish_wait": {
+  "crc": "0x92540fbf",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "schedule_timeout": {
+  "crc": "0x8ddd8aad",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "prepare_to_wait_event": {
+  "crc": "0x8c26d495",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "init_wait_entry": {
+  "crc": "0xfe487975",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "single_release": {
+  "crc": "0xef42eddb",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "seq_puts": {
+  "crc": "0xa2aa781e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "single_open": {
+  "crc": "0x4f731e2b",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "seq_lseek": {
+  "crc": "0xad9f2705",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "seq_read": {
+  "crc": "0xb9997d36",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "sysfs_create_file_ns": {
+  "crc": "0x4fc8c1b0",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "vfree": {
+  "crc": "0x999e8297",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "vmalloc": {
+  "crc": "0xd6ee688f",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "power_supply_get_property": {
+  "crc": "0xbb72d6b4",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "power_supply_get_by_name": {
+  "crc": "0x175ced1",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "power_supply_is_system_supplied": {
+  "crc": "0x2c208607",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "__init_swait_queue_head": {
+  "crc": "0x608741b5",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "wait_for_completion_timeout": {
+  "crc": "0x4a3ad70e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "xiaomi_touch_set_suspend_state": {
+  "crc": "0x88aaf668",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "gpiod_to_irq": {
+  "crc": "0xa471896",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "regulator_put": {
+  "crc": "0xfcd3f0fc",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "regulator_get": {
+  "crc": "0xdbddc967",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "pinctrl_lookup_state": {
+  "crc": "0x79a35362",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "devm_pinctrl_get": {
+  "crc": "0xaa48f219",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "flush_workqueue": {
+  "crc": "0x42160169",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "queue_delayed_work_on": {
+  "crc": "0xbf57e89e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "of_drm_find_panel": {
+  "crc": "0x3c3784a8",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_parse_phandle": {
+  "crc": "0x79746f10",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_count_phandle_with_args": {
+  "crc": "0x39846f3f",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_property_read_variable_u32_array": {
+  "crc": "0xfec2174f",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_find_property": {
+  "crc": "0x6ca7c29e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_get_next_child": {
+  "crc": "0x69601c70",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "of_property_read_string": {
+  "crc": "0x9cf0dacc",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_get_named_gpio_flags": {
+  "crc": "0x982b7d12",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_kmalloc": {
+  "crc": "0x8e2fd0c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "devm_pinctrl_put": {
+  "crc": "0x86f16c20",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "destroy_workqueue": {
+  "crc": "0x8c03d20c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "input_free_device": {
+  "crc": "0xd329e1c6",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "power_supply_unreg_notifier": {
+  "crc": "0x6b81c38b",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "input_unregister_device": {
+  "crc": "0xdf5b2f63",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "panel_event_notifier_unregister": {
+  "crc": "0xa138dda0",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "device_destroy": {
+  "crc": "0xa15d438d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko"
+  ]
+ },
+ "xiaomitouch_register_modedata": {
+  "crc": "0xb2af64a2",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "device_create": {
+  "crc": "0x20f92f09",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko"
+  ]
+ },
+ "get_xiaomi_touch_class": {
+  "crc": "0xc6f32a24",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "debugfs_create_file": {
+  "crc": "0x63ef7ca7",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "debugfs_create_dir": {
+  "crc": "0x82b308e8",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "device_init_wakeup": {
+  "crc": "0x6994009e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "sysfs_create_group": {
+  "crc": "0xaa3caa56",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "power_supply_reg_notifier": {
+  "crc": "0x136209db",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "input_register_device": {
+  "crc": "0xff775d7a",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "input_set_capability": {
+  "crc": "0x5bfaa8d0",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "input_set_abs_params": {
+  "crc": "0x837ac1f4",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "input_mt_init_slots": {
+  "crc": "0x8bdf6c84",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "input_allocate_device": {
+  "crc": "0xe3db3c44",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "__init_waitqueue_head": {
+  "crc": "0xd9a5ea54",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "alloc_workqueue": {
+  "crc": "0xdf9208c0",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "_dev_err": {
+  "crc": "0x5ed4c6ae",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "pinctrl_select_state": {
+  "crc": "0x5c39520d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "panel_event_notifier_register": {
+  "crc": "0x9515bf94",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "delayed_work_timer_fn": {
+  "crc": "0x253af43d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "init_timer_key": {
+  "crc": "0x79cf5987",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "spi_setup": {
+  "crc": "0x92680418",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "__spi_register_driver": {
+  "crc": "0x8957f882",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "rtc_time64_to_tm": {
+  "crc": "0x356461c8",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko"
+  ]
+ },
+ "ktime_get_real_ts64": {
+  "crc": "0x9ec6ca96",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "queue_work_on": {
+  "crc": "0x732ac580",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "pm_wakeup_dev_event": {
+  "crc": "0xe92462a2",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "pm_relax": {
+  "crc": "0xffe8b403",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "cpu_latency_qos_remove_request": {
+  "crc": "0x3aaa15b2",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "update_clicktouch_raw": {
+  "crc": "0xec6be240",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "update_touch_rawdata": {
+  "crc": "0x2df3075",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "copy_touch_rawdata": {
+  "crc": "0x81703a08",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "cpu_latency_qos_add_request": {
+  "crc": "0x589e1a22",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "pm_stay_awake": {
+  "crc": "0x687d2163",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "touch_irq_boost": {
+  "crc": "0x87dfe3f4",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "notify_gesture_single_tap": {
+  "crc": "0x76221702",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "update_prox_sensor_value": {
+  "crc": "0xe6a87d0f",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "__wake_up": {
+  "crc": "0x3eeb2322",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "request_threaded_irq": {
+  "crc": "0x2072ee9b",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "input_event": {
+  "crc": "0x3b938c8d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "update_palm_sensor_value": {
+  "crc": "0x49118811",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "regulator_enable": {
+  "crc": "0xf3bd923d",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "regulator_disable": {
+  "crc": "0x6c8362b4",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "mi_disp_lhbm_fod_set_finger_event": {
+  "crc": "0x1dbb063b",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "update_fod_press_status": {
+  "crc": "0x17c892ac",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "last_touch_events_collect": {
+  "crc": "0x9e978bfa",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "input_mt_report_slot_state": {
+  "crc": "0x3fcaa46c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "gic_nonsecure_priorities": {
+  "crc": "0x4b0a3f52",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "cpu_hwcaps": {
+  "crc": "0x8b9f70c7",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "cpu_hwcap_keys": {
+  "crc": "0xec2fc692",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "arm64_const_caps_ready": {
+  "crc": "0x14b89635",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "__arch_copy_from_user": {
+  "crc": "0xaf507de1",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "__arch_copy_to_user": {
+  "crc": "0x6b2941b2",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "__check_object_size": {
+  "crc": "0x88db9f48",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "remove_proc_entry": {
+  "crc": "0x3c651057",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko"
+  ]
+ },
+ "proc_create": {
+  "crc": "0x20fd21c6",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "proc_mkdir_data": {
+  "crc": "0x4d85f80d",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "printk": {
+  "crc": "0xc5850110",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "__cfi_slowpath": {
+  "crc": "0x2cd90edd",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "strlcat": {
+  "crc": "0xf9c0b663",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "snprintf": {
+  "crc": "0x656e4a6e",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "strlen": {
+  "crc": "0x98cf60b3",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "sscanf": {
+  "crc": "0xbcab6ee6",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "strsep": {
+  "crc": "0x85df9b6c",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "kstrdup": {
+  "crc": "0x2d39b0a7",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "strcmp": {
+  "crc": "0xe2d5255a",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "release_firmware": {
+  "crc": "0xc6d09aa9",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "request_firmware": {
+  "crc": "0x92d08abd",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "strncmp": {
+  "crc": "0x5a921311",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "msleep": {
+  "crc": "0xf9a482f9",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "strlcpy": {
+  "crc": "0x5792f848",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__list_add_valid": {
+  "crc": "0x68f31cbd",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mutex_unlock": {
+  "crc": "0xe8b268ae",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "mutex_lock": {
+  "crc": "0xeb9065d9",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "spi_sync": {
+  "crc": "0xaa554c78",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "__mutex_init": {
+  "crc": "0x574add77",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "vprintk": {
+  "crc": "0x715a5ed0",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "camera.ko"
+  ]
+ },
+ "_raw_spin_unlock_irq": {
+  "crc": "0x4b750f53",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "_raw_spin_lock_irq": {
+  "crc": "0x8427cc7b",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "gpio_to_desc": {
+  "crc": "0x2c531865",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "gpiod_set_raw_value": {
+  "crc": "0xfbc84afe",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "enable_irq": {
+  "crc": "0xfcec0987",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "disable_irq_nosync": {
+  "crc": "0x27bbf221",
+  "needed_by": [
+   "fts_touch_spi.ko"
+  ]
+ },
+ "disable_irq": {
+  "crc": "0x3ce4ca6f",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "complete": {
+  "crc": "0xa6257a2f",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "__const_udelay": {
+  "crc": "0xeae3dfd6",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko"
+  ]
+ },
+ "kmalloc_caches": {
+  "crc": "0x8900b200",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "kmalloc_order_trace": {
+  "crc": "0xb8b9f817",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "__kmalloc": {
+  "crc": "0xeb233a45",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "kmem_cache_alloc_trace": {
+  "crc": "0xb38391e9",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "kfree": {
+  "crc": "0x37a0cba",
+  "needed_by": [
+   "fts_touch_spi.ko",
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "kimage_voffset": {
+  "crc": "0xe4bbc1dd",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko"
+  ]
+ },
+ "memstart_addr": {
+  "crc": "0x9688de8b",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "vabits_actual": {
+  "crc": "0xc56a41e6",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "platform_driver_unregister": {
+  "crc": "0x329d9ae3",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "misc_deregister": {
+  "crc": "0xdcef2da4",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "class_destroy": {
+  "crc": "0xaed3d17e",
+  "needed_by": [
+   "xiaomi_touch.ko"
+  ]
+ },
+ "proc_create_seq_private": {
+  "crc": "0x1b711986",
+  "needed_by": [
+   "xiaomi_touch.ko"
+  ]
+ },
+ "__class_create": {
+  "crc": "0x13a54ed5",
+  "needed_by": [
+   "xiaomi_touch.ko"
+  ]
+ },
+ "misc_register": {
+  "crc": "0x6331d19e",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "__platform_driver_register": {
+  "crc": "0x503a285e",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "seq_printf": {
+  "crc": "0xd740362b",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "cnss2.ko"
+  ]
+ },
+ "_raw_spin_unlock": {
+  "crc": "0xb5b54b34",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "camera.ko"
+  ]
+ },
+ "_raw_spin_lock": {
+  "crc": "0xba8fbd64",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "camera.ko"
+  ]
+ },
+ "remap_pfn_range": {
+  "crc": "0x723d2d0b",
+  "needed_by": [
+   "xiaomi_touch.ko"
+  ]
+ },
+ "no_llseek": {
+  "crc": "0xb8888b15",
+  "needed_by": [
+   "xiaomi_touch.ko",
+   "camera.ko"
+  ]
+ },
+ "sysfs_notify": {
+  "crc": "0xd7fe759b",
+  "needed_by": [
+   "xiaomi_touch.ko"
+  ]
+ },
+ "of_reserved_mem_device_init_by_idx": {
+  "crc": "0x43c31ab3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_allow_l1": {
+  "crc": "0xeaffb00b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_prevent_l1": {
+  "crc": "0x7ecfa503",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cma_get_name": {
+  "crc": "0x507151bb",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_reg_dump": {
+  "crc": "0xc76539cf",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "iommu_set_fault_handler": {
+  "crc": "0x6032dd43",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "iommu_get_domain_for_dev": {
+  "crc": "0xf078061e",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "msm_pcie_deregister_event": {
+  "crc": "0x1df5aa4c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_register_event": {
+  "crc": "0x28391169",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_set_target_link_speed": {
+  "crc": "0xa82e96cf",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_set_link_bandwidth": {
+  "crc": "0x7dac1e68",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_pm_control": {
+  "crc": "0x632971a3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_pcie_enumerate": {
+  "crc": "0x83a5a53a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_response_type_v01_ei": {
+  "crc": "0x21ce5888",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wfc_call_status_req_msg_v01_ei": {
+  "crc": "0xd207cbd7",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wfc_call_status_resp_msg_v01_ei": {
+  "crc": "0x2e49f889",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wfc_call_twt_config_ind_msg_v01_ei": {
+  "crc": "0x1f34ef07",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_respond_get_info_ind_msg_v01_ei": {
+  "crc": "0x3d1468c6",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_free_ind_msg_v01_ei": {
+  "crc": "0x9fadaee0",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_save_ind_msg_v01_ei": {
+  "crc": "0xeffd72d5",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_req_mem_ind_msg_v01_ei": {
+  "crc": "0xcf6bbe28",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_cal_done_ind_msg_v01_ei": {
+  "crc": "0x82d5a295",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_pin_connect_result_ind_msg_v01_ei": {
+  "crc": "0x360becd3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_fw_init_done_ind_msg_v01_ei": {
+  "crc": "0x1ae65c6b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_fw_ready_ind_msg_v01_ei": {
+  "crc": "0xf5f3f81b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_fw_mem_ready_ind_msg_v01_ei": {
+  "crc": "0x4eaa6981",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_request_mem_ind_msg_v01_ei": {
+  "crc": "0xeb31ed49",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_host_cap_req_msg_v01_ei": {
+  "crc": "0xcb847d99",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_host_cap_resp_msg_v01_ei": {
+  "crc": "0xbf3417a8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_ind_register_req_msg_v01_ei": {
+  "crc": "0xae90a96c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_ind_register_resp_msg_v01_ei": {
+  "crc": "0x728605ef",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_mode_req_msg_v01_ei": {
+  "crc": "0x3fef7722",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_mode_resp_msg_v01_ei": {
+  "crc": "0xe37316a6",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dms_get_mac_address_req_msg_v01_ei": {
+  "crc": "0x4c2b1d40",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dms_get_mac_address_resp_msg_v01_ei": {
+  "crc": "0x40bcd2b8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_cal_report_req_msg_v01_ei": {
+  "crc": "0x39ee68dc",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_cal_report_resp_msg_v01_ei": {
+  "crc": "0xb970c8a2",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_get_info_req_msg_v01_ei": {
+  "crc": "0x648deec0",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_get_info_resp_msg_v01_ei": {
+  "crc": "0xad2cf76b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_dynamic_feature_mask_req_msg_v01_ei": {
+  "crc": "0x20ffae1a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_dynamic_feature_mask_resp_msg_v01_ei": {
+  "crc": "0xcb6ebee1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_mem_info_req_msg_v01_ei": {
+  "crc": "0x67bf5287",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_mem_info_resp_msg_v01_ei": {
+  "crc": "0x459711e4",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_antenna_grant_req_msg_v01_ei": {
+  "crc": "0x33c73954",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_antenna_grant_resp_msg_v01_ei": {
+  "crc": "0x5a19eae1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_antenna_switch_req_msg_v01_ei": {
+  "crc": "0x91f4dfdb",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_antenna_switch_resp_msg_v01_ei": {
+  "crc": "0x27bc47b6",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_pcie_gen_switch_req_msg_v01_ei": {
+  "crc": "0x51b142a3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_pcie_gen_switch_resp_msg_v01_ei": {
+  "crc": "0x79a2fb25",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_ini_req_msg_v01_ei": {
+  "crc": "0x394d6346",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_ini_resp_msg_v01_ei": {
+  "crc": "0xa9aa11f3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_athdiag_write_req_msg_v01_ei": {
+  "crc": "0x9e1cfa12",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_athdiag_write_resp_msg_v01_ei": {
+  "crc": "0xc50bd587",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_athdiag_read_req_msg_v01_ei": {
+  "crc": "0x57d2f778",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_athdiag_read_resp_msg_v01_ei": {
+  "crc": "0x68a593cc",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wlan_cfg_req_msg_v01_ei": {
+  "crc": "0x7651b256",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wlan_cfg_resp_msg_v01_ei": {
+  "crc": "0xb4521d46",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wlan_mode_req_msg_v01_ei": {
+  "crc": "0x3b62851c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_wlan_mode_resp_msg_v01_ei": {
+  "crc": "0x221686ff",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_config_download_req_msg_v01_ei": {
+  "crc": "0xff41d476",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_config_download_resp_msg_v01_ei": {
+  "crc": "0x8fb52de8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_data_req_msg_v01_ei": {
+  "crc": "0x3aba511d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_qdss_trace_data_resp_msg_v01_ei": {
+  "crc": "0x55106ebd",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_mac_addr_req_msg_v01_ei": {
+  "crc": "0x8bde4e47",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_mac_addr_resp_msg_v01_ei": {
+  "crc": "0xde1fb248",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_m3_info_req_msg_v01_ei": {
+  "crc": "0x50f7baa5",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_m3_info_resp_msg_v01_ei": {
+  "crc": "0x90c018e8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_bdf_download_req_msg_v01_ei": {
+  "crc": "0xf9f95072",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_bdf_download_resp_msg_v01_ei": {
+  "crc": "0x88de5175",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_cap_req_msg_v01_ei": {
+  "crc": "0xf93473cd",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_cap_resp_msg_v01_ei": {
+  "crc": "0xd300324b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_respond_mem_req_msg_v01_ei": {
+  "crc": "0xf8be713a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wlfw_respond_mem_resp_msg_v01_ei": {
+  "crc": "0xf0d8dff6",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "jiffies_to_msecs": {
+  "crc": "0x37befc70",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "kernel_connect": {
+  "crc": "0x17feba05",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "get_hw_version_platform": {
+  "crc": "0x4766f8d8",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "get_hw_country_version": {
+  "crc": "0x1b138c6d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_handle_release": {
+  "crc": "0xdbc58213",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_add_lookup": {
+  "crc": "0xe3b1dcf0",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_handle_init": {
+  "crc": "0xa8bb3ddf",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_txn_wait": {
+  "crc": "0xdb9be386",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_txn_cancel": {
+  "crc": "0x7cbf7116",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_send_request": {
+  "crc": "0x99a1aa04",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qmi_txn_init": {
+  "crc": "0x6fd25b0e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "init_net": {
+  "crc": "0xc427c067",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "kfree_skb": {
+  "crc": "0x6f594009",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "netlink_broadcast": {
+  "crc": "0xb34324ff",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__alloc_skb": {
+  "crc": "0xbcf85bc0",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "nla_put": {
+  "crc": "0xcf65aa3a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "genlmsg_put": {
+  "crc": "0x7674c6a1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "genl_unregister_family": {
+  "crc": "0x78e4183e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "genl_register_family": {
+  "crc": "0x9f9bb237",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "strnstr": {
+  "crc": "0xc310b981",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "cmd_db_read_addr": {
+  "crc": "0x8e39398",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cmd_db_ready": {
+  "crc": "0x5203d176",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "clk_disable": {
+  "crc": "0xb6e6d99d",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "clk_unprepare": {
+  "crc": "0xb077e70a",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "clk_enable": {
+  "crc": "0x815588a6",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "clk_prepare": {
+  "crc": "0x7c9a7371",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "clk_set_rate": {
+  "crc": "0x76d9b876",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_clk_put": {
+  "crc": "0x62aa2ae0",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_clk_get": {
+  "crc": "0x36d574de",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__udelay": {
+  "crc": "0x9e7d6bd0",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "regulator_set_load": {
+  "crc": "0xbdb1494f",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "regulator_set_voltage": {
+  "crc": "0x8f258f19",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "devm_regulator_put": {
+  "crc": "0x337f7986",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "devm_regulator_get_optional": {
+  "crc": "0x743dff5c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mbox_send_message": {
+  "crc": "0xe941859b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mbox_request_channel": {
+  "crc": "0xf7cdbd5a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "devm_ioremap": {
+  "crc": "0x1dc7fa5f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "platform_get_resource_byname": {
+  "crc": "0xc06cf568",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_kfree": {
+  "crc": "0xd604c3f",
+  "needed_by": [
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "__tracepoint_rwmmio_write": {
+  "crc": "0x95575c33",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__tracepoint_rwmmio_post_read": {
+  "crc": "0x19ebf04e",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__tracepoint_rwmmio_read": {
+  "crc": "0xa035d76e",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "iounmap": {
+  "crc": "0xedc03953",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "pcie_capability_read_word": {
+  "crc": "0x3eb65cf5",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_get_exec_env": {
+  "crc": "0xf829ed6b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_controller_set_bw_scale_cb": {
+  "crc": "0xda19a843",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_free_controller": {
+  "crc": "0x82c51451",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_unregister_controller": {
+  "crc": "0x6d275730",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_register_controller": {
+  "crc": "0xdaa54f9c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_alloc_controller": {
+  "crc": "0x377bb487",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "irq_get_irq_data": {
+  "crc": "0xd67517d1",
+  "needed_by": [
+   "cnss2.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "pci_alloc_irq_vectors_affinity": {
+  "crc": "0xf938cef",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_free_irq_vectors": {
+  "crc": "0x7631967b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dma_set_coherent_mask": {
+  "crc": "0xbdc9a589",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dma_set_mask": {
+  "crc": "0x77561cbf",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_release_region": {
+  "crc": "0xa601473c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_iomap": {
+  "crc": "0xca9282f8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_request_region": {
+  "crc": "0xdb6d818c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_assign_resource": {
+  "crc": "0x42acf12",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_dump_sfr": {
+  "crc": "0xa8609b03",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "kmemdup": {
+  "crc": "0x66b4cc41",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mhi_device_get_sync_atomic": {
+  "crc": "0xc97bcf42",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "ktime_get_mono_fast_ns": {
+  "crc": "0x6ebe366f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__pm_runtime_suspend": {
+  "crc": "0xd8ed0ca2",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__pm_runtime_resume": {
+  "crc": "0x8637ac5d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_scan_rddm_cookie": {
+  "crc": "0x14a89bf3",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_pm_fast_resume": {
+  "crc": "0xbd33c02c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_pm_fast_suspend": {
+  "crc": "0x27f36e70",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_force_reset": {
+  "crc": "0x1b9f67af",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_force_rddm_mode": {
+  "crc": "0xab3b03f6",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_pm_resume": {
+  "crc": "0x5b60053f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "usleep_range": {
+  "crc": "0x12a38747",
+  "needed_by": [
+   "cnss2.ko",
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "mhi_pm_suspend": {
+  "crc": "0x4fa751ce",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_power_down": {
+  "crc": "0x6f634a6e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_sync_power_up": {
+  "crc": "0x1fbd5468",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_unprepare_after_power_down": {
+  "crc": "0x115940f4",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_prepare_for_power_up": {
+  "crc": "0xb41b56a4",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_set_m2_timeout_ms": {
+  "crc": "0xfa78857a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "_raw_spin_unlock_bh": {
+  "crc": "0xe46021ca",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "_raw_spin_lock_bh": {
+  "crc": "0xc3690fc",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mhi_debug_reg_dump": {
+  "crc": "0x74832723",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_load_and_free_saved_state": {
+  "crc": "0x1322500d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_restore_state": {
+  "crc": "0xb598e3ff",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_load_saved_state": {
+  "crc": "0xa1ffe003",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_store_saved_state": {
+  "crc": "0x7180a796",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_save_state": {
+  "crc": "0x2af8eaa1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__log_write_mmio": {
+  "crc": "0x31dfd5cd",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__log_post_read_mmio": {
+  "crc": "0x6980ea4b",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "__log_read_mmio": {
+  "crc": "0xcf1211a8",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "icc_set_bw": {
+  "crc": "0x3cdad6c5",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "pci_unregister_driver": {
+  "crc": "0xe1e4290c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__pci_register_driver": {
+  "crc": "0x339795e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "of_get_property": {
+  "crc": "0xad0a8a5a",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mhi_download_rddm_image": {
+  "crc": "0x816aca7e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_read_config_dword": {
+  "crc": "0x4412c58e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_irq_vector": {
+  "crc": "0xa75dc53e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "iommu_unmap": {
+  "crc": "0x27747427",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "iommu_map": {
+  "crc": "0xb05c9257",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mhi_device_put": {
+  "crc": "0x44238848",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_device_get": {
+  "crc": "0xc60eac1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mhi_device_get_sync": {
+  "crc": "0x12333b6b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_dev_present": {
+  "crc": "0x3145216f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "del_timer_sync": {
+  "crc": "0xf15e728e",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "mhi_report_error": {
+  "crc": "0x6acf8abb",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mod_timer": {
+  "crc": "0x72cd0f7f",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "pci_set_master": {
+  "crc": "0xfba39625",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_enable_device": {
+  "crc": "0xb1a30925",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_set_power_state": {
+  "crc": "0x48cb85bc",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_disable_device": {
+  "crc": "0x6469305c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_clear_master": {
+  "crc": "0xf04038f9",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pci_read_config_word": {
+  "crc": "0xf5e7ab97",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "ipc_log_context_destroy": {
+  "crc": "0xf470e1fe",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "ipc_log_context_create": {
+  "crc": "0x6fdbaa2a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "seq_hex_dump": {
+  "crc": "0xe24ebce2",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "kstrtouint": {
+  "crc": "0x69ad2f20",
+  "needed_by": [
+   "cnss2.ko",
+   "aw8697-haptic.ko"
+  ]
+ },
+ "ipc_log_string": {
+  "crc": "0x8b83a1e8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "jiffies": {
+  "crc": "0x15ba50a6",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "kernel_kobj": {
+  "crc": "0xbe169a2d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "panic_notifier_list": {
+  "crc": "0x7ceeac9",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mbox_free_channel": {
+  "crc": "0x4abd0c35",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "icc_put": {
+  "crc": "0x276152a6",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_device_remove_group": {
+  "crc": "0xf2e7791e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wakeup_source_unregister": {
+  "crc": "0x357b5405",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "unregister_pm_notifier": {
+  "crc": "0x7681946c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "unregister_reboot_notifier": {
+  "crc": "0xac1a55be",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cnss_plat_ipc_unregister": {
+  "crc": "0x7e699049",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__pm_relax": {
+  "crc": "0xa9941a8b",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "panic": {
+  "crc": "0xf1e046cc",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "up_write": {
+  "crc": "0x20d81059",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "down_write": {
+  "crc": "0x28ed2847",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pm_system_wakeup": {
+  "crc": "0x8c0215f2",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cnss_plat_ipc_register": {
+  "crc": "0xce10a382",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wakeup_source_register": {
+  "crc": "0x28230a3f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "register_reboot_notifier": {
+  "crc": "0x3517383e",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "register_pm_notifier": {
+  "crc": "0x9cc4f70a",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "pm_wakeup_ws_event": {
+  "crc": "0x8a25ae5d",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cancel_delayed_work_sync": {
+  "crc": "0xf8beca97",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cnss_plat_ipc_qmi_daemon_config": {
+  "crc": "0xb65296d9",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cnss_plat_ipc_qmi_file_upload": {
+  "crc": "0x9546e7ec",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "cnss_plat_ipc_qmi_file_download": {
+  "crc": "0x5657b1fe",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "sysfs_remove_link": {
+  "crc": "0x9b2b597c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "sysfs_create_link": {
+  "crc": "0xc01c8b87",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "scnprintf": {
+  "crc": "0x96848186",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "complete_all": {
+  "crc": "0x93d6dd8c",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_device_add_group": {
+  "crc": "0x71021beb",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "of_property_read_string_helper": {
+  "crc": "0x7c02aadb",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "of_icc_get": {
+  "crc": "0xcdb16f62",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "of_match_device": {
+  "crc": "0x7576a4d9",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "of_find_matching_node_and_match": {
+  "crc": "0x54cf30ec",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "of_device_is_available": {
+  "crc": "0x5cf87584",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "of_find_node_with_property": {
+  "crc": "0xea08eb76",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dma_free_attrs": {
+  "crc": "0x9cb025a4",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_dump_data_register_nominidump": {
+  "crc": "0xdd501da",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dma_alloc_attrs": {
+  "crc": "0xff8e54c1",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__list_del_entry_valid": {
+  "crc": "0xe1537255",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "gpiod_get_raw_value": {
+  "crc": "0x9a7402a8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "__msecs_to_jiffies": {
+  "crc": "0x7f02188f",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "_raw_spin_unlock_irqrestore": {
+  "crc": "0xd35cce70",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "firmware_request_nowarn": {
+  "crc": "0x4bff2d19",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "msm_minidump_remove_region": {
+  "crc": "0x817876ce",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "msm_minidump_add_region": {
+  "crc": "0x5bb305e8",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qcom_elf_dump": {
+  "crc": "0x4f464391",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "dump_enabled": {
+  "crc": "0x9624fa3f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "qcom_dump": {
+  "crc": "0x8712782c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "atomic_notifier_chain_unregister": {
+  "crc": "0x7181db30",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "atomic_notifier_chain_register": {
+  "crc": "0x2b9997fb",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "sg_free_table": {
+  "crc": "0x7f5b4fe4",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "dma_get_sgtable_attrs": {
+  "crc": "0x1e0d911f",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "del_timer": {
+  "crc": "0xaa4008af",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "mutex_trylock": {
+  "crc": "0x78c7940d",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "wait_for_completion_interruptible": {
+  "crc": "0x2e3bcce2",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wait_for_completion_killable": {
+  "crc": "0x20463df4",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "wait_for_completion": {
+  "crc": "0x25974000",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "_raw_spin_lock_irqsave": {
+  "crc": "0x34db050b",
+  "needed_by": [
+   "cnss2.ko",
+   "camera.ko"
+  ]
+ },
+ "up_read": {
+  "crc": "0x6b50e951",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "down_read": {
+  "crc": "0x3355da1c",
+  "needed_by": [
+   "cnss2.ko"
+  ]
+ },
+ "module_put": {
+  "crc": "0x2f166344",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "try_module_get": {
+  "crc": "0x36505ade",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "__hrtimer_get_remaining": {
+  "crc": "0xed269ad2",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "hrtimer_start_range_ns": {
+  "crc": "0x939fc2ef",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "i2c_transfer_buffer_flags": {
+  "crc": "0xb86fd3a1",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_property_read_variable_u8_array": {
+  "crc": "0x64cd05cd",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "ktime_get": {
+  "crc": "0xb43f9365",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "request_firmware_nowait": {
+  "crc": "0x7d3e320e",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "thermal_zone_get_temp": {
+  "crc": "0xbb2aa579",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "thermal_zone_get_zone_by_name": {
+  "crc": "0x7d5c137f",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "hrtimer_cancel": {
+  "crc": "0xcc69bd8c",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "hrtimer_active": {
+  "crc": "0xecd991f",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "hrtimer_init": {
+  "crc": "0x3ebd5214",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "of_property_count_elems_of_size": {
+  "crc": "0x5f9e9913",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "of_get_next_available_child": {
+  "crc": "0x659b3c35",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "i2c_transfer": {
+  "crc": "0xf184be6",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "schedule": {
+  "crc": "0x1000e51",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "i2c_del_driver": {
+  "crc": "0x8f471ada",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "i2c_smbus_write_byte_data": {
+  "crc": "0x610b7c49",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "i2c_smbus_read_byte_data": {
+  "crc": "0xae87eb36",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "gpiod_set_raw_value_cansleep": {
+  "crc": "0xd98115d2",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "devm_free_irq": {
+  "crc": "0x2269b80c",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko"
+  ]
+ },
+ "input_ff_destroy": {
+  "crc": "0x28b46b32",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "input_ff_create": {
+  "crc": "0xafd0f173",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "devm_request_threaded_irq": {
+  "crc": "0xfa8a5bb0",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "devm_gpio_free": {
+  "crc": "0x5abd3951",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "devm_gpio_request_one": {
+  "crc": "0x613844ff",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "devm_input_allocate_device": {
+  "crc": "0x3871fd85",
+  "needed_by": [
+   "aw8697-haptic.ko"
+  ]
+ },
+ "i2c_register_driver": {
+  "crc": "0x4f72f07e",
+  "needed_by": [
+   "aw8697-haptic.ko",
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "qti_flash_led_set_param": {
+  "crc": "0xf442d5db",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qti_flash_led_prepare": {
+  "crc": "0x65ee2067",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "icc_get": {
+  "crc": "0x4f3ed226",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "led_trigger_event": {
+  "crc": "0x6006e194",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "led_trigger_unregister_simple": {
+  "crc": "0xb45ef8ba",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "led_trigger_register_simple": {
+  "crc": "0xa259f598",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "arch_timer_read_counter": {
+  "crc": "0x75fb9062",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "wl2866d_camera_power_down": {
+  "crc": "0x1889577a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "wl2866d_camera_power_up": {
+  "crc": "0x4d4f90fa",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "vzalloc": {
+  "crc": "0x40a9b349",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "down": {
+  "crc": "0x6626afca",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "up": {
+  "crc": "0xcf2a6966",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "devm_regulator_get": {
+  "crc": "0xb7debf78",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_get_parent": {
+  "crc": "0xf7c453f0",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__memcpy_toio": {
+  "crc": "0xf77555cd",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_set_remote_state": {
+  "crc": "0x9b128a66",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_mdt_load": {
+  "crc": "0xce2ad607",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_mdt_get_size": {
+  "crc": "0xe8a3861c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_pas_auth_and_reset": {
+  "crc": "0xdd7e3192",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_pas_shutdown": {
+  "crc": "0xfc52abc7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__memcpy_fromio": {
+  "crc": "0x5d112304",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "regulator_set_mode": {
+  "crc": "0xac092213",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_find_device_by_node": {
+  "crc": "0x68bc512b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "debugfs_create_u8": {
+  "crc": "0xa08f8b1c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "debugfs_attr_write": {
+  "crc": "0xdb54a67d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "debugfs_attr_read": {
+  "crc": "0xf5d4b2b1",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "memdup_user": {
+  "crc": "0x9291cd3b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_find_node_opts_by_path": {
+  "crc": "0x986f7ca8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "ktime_get_with_offset": {
+  "crc": "0xc4f0da12",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__tasklet_hi_schedule": {
+  "crc": "0x3e3bad0a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "tasklet_kill": {
+  "crc": "0xea3c74e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "tasklet_init": {
+  "crc": "0x2364c85a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_match_node": {
+  "crc": "0x488eb4e2",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_slice_deactivate": {
+  "crc": "0x7e5ade52",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_slice_activate": {
+  "crc": "0x6b7609b9",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dev_pm_opp_get_voltage": {
+  "crc": "0x4d9ba879",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dev_pm_opp_find_freq_ceil": {
+  "crc": "0x59b90419",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_get_slice_size": {
+  "crc": "0xbc8055f8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_get_slice_id": {
+  "crc": "0xefb7aaf9",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_slice_getd": {
+  "crc": "0x2dc32291",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_find_node_by_name": {
+  "crc": "0x87f6e3eb",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "llcc_slice_putd": {
+  "crc": "0xcf51ae91",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_property_read_u64": {
+  "crc": "0xac8a155e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "synx_deregister_ops": {
+  "crc": "0x127dc2c4",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "synx_register_ops": {
+  "crc": "0x539fd702",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_devdata": {
+  "crc": "0x4207749",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "param_ops_int": {
+  "crc": "0xd8339549",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_del": {
+  "crc": "0x8a44ba45",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gen_pool_add_owner": {
+  "crc": "0xbefa51a3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iommu_dma_reserve_iova": {
+  "crc": "0x87d4bf5a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iommu_dma_enable_best_fit_algo": {
+  "crc": "0x24a54500",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gen_pool_create": {
+  "crc": "0xced0f4d4",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_get_child_by_name": {
+  "crc": "0xb0ee738d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gen_pool_destroy": {
+  "crc": "0x6c224cda",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_add": {
+  "crc": "0xa76d9111",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_device_is_compatible": {
+  "crc": "0xef4b763b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gen_pool_free_owner": {
+  "crc": "0x60ba97c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gen_pool_alloc_algo_owner": {
+  "crc": "0x2b593aa8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__bitmap_clear": {
+  "crc": "0x922f45a6",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__bitmap_set": {
+  "crc": "0x615911d7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bitmap_find_next_zero_area_off": {
+  "crc": "0x64127b67",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__alloc_pages_nodemask": {
+  "crc": "0xcfd14bde",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__free_pages": {
+  "crc": "0x5a095c99",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "sg_next": {
+  "crc": "0x87b8798d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "sg_alloc_table": {
+  "crc": "0x3a2f6702",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iommu_detach_device": {
+  "crc": "0x3e9c6201",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iommu_attach_device": {
+  "crc": "0x7b7e559e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_detach": {
+  "crc": "0x78ec79c1",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_unmap_attachment": {
+  "crc": "0xe1506dd",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iommu_map_sg": {
+  "crc": "0x8769d8b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_map_attachment": {
+  "crc": "0x20d2f8c3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_attach": {
+  "crc": "0x23ce83ac",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "refcount_warn_saturate": {
+  "crc": "0x296695f",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__warn_printk": {
+  "crc": "0x56470118",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "platform_bus_type": {
+  "crc": "0xb1454ef1",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_match_add_release": {
+  "crc": "0xdc8a5b30",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_iommu_get_fault_ids": {
+  "crc": "0x8da091b4",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "put_device": {
+  "crc": "0xbc44cef7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bus_find_device": {
+  "crc": "0xb228e90d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kfree_sensitive": {
+  "crc": "0xd0760fc0",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_io_writel": {
+  "crc": "0x1de67f9b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_io_readl": {
+  "crc": "0x4e2e74c1",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_camera_protect_phy_lanes": {
+  "crc": "0x170fe239",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "qcom_scm_smmu_notify_secure_lut": {
+  "crc": "0xfae85203",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__memset_io": {
+  "crc": "0x18b48e28",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_address_to_resource": {
+  "crc": "0xf6ceff9a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "ns_to_timespec64": {
+  "crc": "0x1e1e140e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bpf_trace_run5": {
+  "crc": "0xaa4eb664",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bpf_trace_run3": {
+  "crc": "0xdb36dd4a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bpf_trace_run7": {
+  "crc": "0x8e3b213e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bpf_trace_run4": {
+  "crc": "0xca4e8460",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "bpf_trace_run2": {
+  "crc": "0xf7daba4e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "perf_trace_run_bpf_submit": {
+  "crc": "0x707d45e8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "perf_trace_buf_alloc": {
+  "crc": "0xcb8a6e1b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "vsnprintf": {
+  "crc": "0x148653",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_handle_return": {
+  "crc": "0x7381287f",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_seq_printf": {
+  "crc": "0x525d0aa3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_raw_output_prep": {
+  "crc": "0xb4304cd8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_event_ignore_this_pid": {
+  "crc": "0x72b15a7c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "event_triggers_call": {
+  "crc": "0x7c087dd1",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_event_buffer_commit": {
+  "crc": "0x6acaad61",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "strcpy": {
+  "crc": "0xe914e41e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_event_buffer_reserve": {
+  "crc": "0x90b21669",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_event_raw_init": {
+  "crc": "0xe79bbd92",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "trace_event_reg": {
+  "crc": "0x9939f2b0",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "param_array_ops": {
+  "crc": "0xaf81f891",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "param_ops_ullong": {
+  "crc": "0x1e2688d7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "vscnprintf": {
+  "crc": "0xaa0c318b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kstrtoull": {
+  "crc": "0x3c80c06c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gpiod_get_raw_value_cansleep": {
+  "crc": "0x7ee96f3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "arm64_use_ng_mappings": {
+  "crc": "0xaf56600a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "iomem_resource": {
+  "crc": "0xc7da062f",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "param_ops_uint": {
+  "crc": "0x1115f928",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gpio_free_array": {
+  "crc": "0xb0d1656c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "gpio_request_one": {
+  "crc": "0x403f9529",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "mmrm_client_set_value": {
+  "crc": "0x6be8a03a",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "mmrm_client_set_value_in_range": {
+  "crc": "0xf77f51e3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_clk_get_from_provider": {
+  "crc": "0xaaa2cff",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_parse_phandle_with_args": {
+  "crc": "0x3cbbcd88",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "clk_get_rate": {
+  "crc": "0x556e4390",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__release_region": {
+  "crc": "0x1848221d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "clk_get": {
+  "crc": "0xb770a9bd",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__ioremap": {
+  "crc": "0x6b4b2933",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__request_region": {
+  "crc": "0xca39ba0",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "regulator_count_voltages": {
+  "crc": "0xb0b87cc9",
+  "needed_by": [
+   "camera.ko",
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "of_property_read_u32_index": {
+  "crc": "0xa8a4448c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "of_property_match_string": {
+  "crc": "0x3ccde25c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "clk_put": {
+  "crc": "0x2e1ca751",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "clk_round_rate": {
+  "crc": "0x43f81957",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "mmrm_client_deregister": {
+  "crc": "0x15e4a2d8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "mmrm_client_register": {
+  "crc": "0xbbd8dc5d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "simple_attr_open": {
+  "crc": "0xbf27df8c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "simple_attr_release": {
+  "crc": "0xeb895e94",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "simple_attr_write": {
+  "crc": "0xd9bf06e9",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "simple_attr_read": {
+  "crc": "0x4a788936",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "generic_file_llseek": {
+  "crc": "0xe2aa8e76",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "simple_read_from_buffer": {
+  "crc": "0x619cb7dd",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "debugfs_create_u32": {
+  "crc": "0x4bef7eba",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kmem_cache_free": {
+  "crc": "0xd419eeb6",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kmem_cache_alloc": {
+  "crc": "0x4ba1ee76",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "cancel_work_sync": {
+  "crc": "0xd969d6f4",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_vunmap": {
+  "crc": "0x90a8a2dc",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "mem_buf_lend": {
+  "crc": "0x4aff2270",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_heap_buffer_alloc": {
+  "crc": "0x76af8aef",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "find_next_bit": {
+  "crc": "0xc0a3d105",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_vmap": {
+  "crc": "0xb6a444cd",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_fd": {
+  "crc": "0xde32d214",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_heap_find": {
+  "crc": "0xeff75c0b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "debugfs_create_bool": {
+  "crc": "0x3c62daf",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_get": {
+  "crc": "0x6a6d5fb3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_put": {
+  "crc": "0x98c2b0fc",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_end_cpu_access": {
+  "crc": "0xd1764430",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_begin_cpu_access": {
+  "crc": "0x71f605a9",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "dma_buf_get_flags": {
+  "crc": "0x2af4960",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "find_next_zero_bit": {
+  "crc": "0x479c3c86",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "get_random_bytes": {
+  "crc": "0x79aa04a2",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_subdev_call_wrappers": {
+  "crc": "0x79ef8d9e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_master_del": {
+  "crc": "0x5b2a7703",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_unbind_all": {
+  "crc": "0x9178093b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_device_unregister": {
+  "crc": "0xe690bb6b",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "media_device_cleanup": {
+  "crc": "0xa98f49c8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "media_device_unregister": {
+  "crc": "0x2f4b25cb",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kmem_cache_destroy": {
+  "crc": "0xae4b2889",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "sysfs_remove_file_ns": {
+  "crc": "0xefd0ee57",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__video_register_device": {
+  "crc": "0x52a1f6ef",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_event_unsubscribe": {
+  "crc": "0x9f4125f7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_event_subscribe": {
+  "crc": "0x1d367307",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_fh_release": {
+  "crc": "0x69a9a3ab",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_fh_open": {
+  "crc": "0x45171035",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_event_pending": {
+  "crc": "0x3a54f024",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_ioctl2": {
+  "crc": "0x7207d3a9",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "media_entity_pads_init": {
+  "crc": "0x744b735",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_device_release_empty": {
+  "crc": "0xf068dddb",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_device_alloc": {
+  "crc": "0xa0b2d8ce",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__media_device_register": {
+  "crc": "0x8e8feb5f",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "media_device_init": {
+  "crc": "0x35fd62b8",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_device_register": {
+  "crc": "0x6cd98629",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_bind_all": {
+  "crc": "0xecf2f2c3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "kmem_cache_create": {
+  "crc": "0x612f3d20",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "component_master_add_with_match": {
+  "crc": "0xde57ffe2",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__v4l2_device_register_subdev_nodes": {
+  "crc": "0xa8408d5e",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_device_unregister_subdev": {
+  "crc": "0x1ddcdfef",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_device_register_subdev": {
+  "crc": "0x385661da",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "list_sort": {
+  "crc": "0xcba4abe3",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_subdev_init": {
+  "crc": "0x6a0a6a61",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_device_release": {
+  "crc": "0x284b3c6c",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "video_unregister_device": {
+  "crc": "0xa16f80e7",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "v4l2_event_queue": {
+  "crc": "0x9a178788",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "__cpu_online_mask": {
+  "crc": "0xac594e02",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "cpu_number": {
+  "crc": "0x7a2af7b4",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "preempt_schedule_notrace": {
+  "crc": "0xf70e4a4d",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "___ratelimit": {
+  "crc": "0x1d24c881",
+  "needed_by": [
+   "camera.ko"
+  ]
+ },
+ "input_alloc_absinfo": {
+  "crc": "0x51488668",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "kmemdup_nul": {
+  "crc": "0xb3f548ad",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "krealloc": {
+  "crc": "0xb1e12d81",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "desc_to_gpio": {
+  "crc": "0xe3a4b762",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "input_mt_report_pointer_emulation": {
+  "crc": "0xd2c69385",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "wait_for_completion_interruptible_timeout": {
+  "crc": "0xf02aa937",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "_dev_warn": {
+  "crc": "0xbc7a4422",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "device_property_read_u32_array": {
+  "crc": "0x3e7bc22f",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "gpiod_set_value": {
+  "crc": "0x11b0ee03",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "gpiod_direction_output": {
+  "crc": "0x3efd4fdd",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "devm_gpiod_get_optional": {
+  "crc": "0xd96311",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "_dev_info": {
+  "crc": "0x8eff6041",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ },
+ "device_property_present": {
+  "crc": "0x70bcd326",
+  "needed_by": [
+   "atmel_mxt_ts.ko"
+  ]
+ }
+}
