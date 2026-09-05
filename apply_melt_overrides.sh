@@ -2,7 +2,7 @@
 
 set -e
 
-CONFIG_FILE="${1:-arch/arm64/configs/vendor/ingres_GKI.config}"
+CONFIG_FILE="${1:-arch/arm64/configs/vendor/waipio_GKI.config}"
 
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "::error::File tidak ditemukan: $CONFIG_FILE"
