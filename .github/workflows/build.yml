@@ -7,18 +7,15 @@ on:
         description: "Kernel source repo URL for ingres (Melt Kernel)."
         required: true
         type: string
-        default: "https://github.com/kingD2N/kernel_source_Melt_xiaomi_ingres"
+        default: "https://github.com/kingD2N/Templar-Kernel-GKI-5.10"
 
       kernel_branch:
         description: "Branch on kernel_source above. Default MIUI_HOS = tree yang sudah diaudit (config vendor/ingres_GKI.config sudah digabung dgn 426-baris config resmi Xiaomi ingres-s-oss)."
         required: true
         type: choice
-        default: "MIUI_HOS"
+        default: "Templar-LinuxStable"
         options :
-           - MIUI_HOS
-           - LazyGoogle_ORI
-           - melt-rebase-4LazyGoogle
-           - melt-MIX
+           - Templar-LinuxStable
            
       devicetree_branch:
         description: "Branch for the Ingres-Centre devicetrees repo. WAJIB tetap diisi -- arch/arm64/boot/dts/vendor di kernel_source manapun (termasuk rilis resmi Xiaomi ingres-s-oss) memang kosong, jadi ini satu-satunya sumber devicetree yang lengkap. Repo ini defaultnya lineage-23.0, NOT lineage-23.2 - double check before running."
@@ -46,9 +43,7 @@ on:
         default: 5.10.267-MIUI14™-KERNEL
         options:
           - MIUI14™-KERNEL
-          - Melt-KERNEL
-          - MIX™-KERNEL
-          - LazyGoogle-KERNEL
+          - Templar-LinuxStable
 
       susfs:
         description: "Add susfs support"
