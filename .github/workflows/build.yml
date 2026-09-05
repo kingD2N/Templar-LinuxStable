@@ -10,11 +10,12 @@ on:
         default: "https://github.com/kingD2N/Templar-Kernel-GKI-5.10"
 
       kernel_branch:
-        description: "Branch on kernel_source above. Default MIUI_HOS = tree yang sudah diaudit (config vendor/ingres_GKI.config sudah digabung dgn 426-baris config resmi Xiaomi ingres-s-oss)."
+        description: "Branch on kernel_source above. Templar-OSS = tree yang beneran sudah digabung dgn config resmi Xiaomi ingres-s-oss (punya vendor/waipio_GKI.config, xiaomi_GKI.config, debugfs.config). Templar-LinuxStable TIDAK punya overlay vendor Xiaomi sama sekali (cuma fragment AOSP generik) - jangan pakai buat build device ini."
         required: true
         type: choice
-        default: "Templar-LinuxStable"
+        default: "Templar-OSS"
         options :
+           - Templar-OSS
            - Templar-LinuxStable
            
       devicetree_branch:
@@ -160,12 +161,16 @@ jobs:
 
       - name: Terapkan ulang override melt-MIX (anti-regresi config)
         run: |
-          # ingres_GKI.config sudah 2x kehilangan CONFIG_MI_CHARGER_M81 dan
-          # override ARCH_CAPE/ARCH_DIWALI setiap kali di-sync ulang dari
-          # source resmi Xiaomi. apply_melt_overrides.sh (idempotent, sudah
-          # diuji 4 skenario) memastikan ini otomatis benar tiap build,
-          # tidak lagi bergantung diingat manual sebelum push.
-          bash "${{ github.workspace }}/apply_melt_overrides.sh" "${SOC}/arch/arm64/configs/vendor/ingres_GKI.config"
+          # File "vendor/ingres_GKI.config" gak pernah ada di kernel_source manapun
+          # (sudah dicek ke-17 branch di kingD2N/Templar-Kernel-GKI-5.10) - itu
+          # sebabnya step ini selalu gagal "File tidak ditemukan". Fragment yang
+          # BENERAN ada dan yang beneran nyimpen CONFIG_ARCH_CAPE=y /
+          # CONFIG_ARCH_DIWALI=y (harus dimatikan krn ingres cuma varian WAIPIO)
+          # adalah vendor/waipio_GKI.config. CONFIG_MI_CHARGER_M81 juga
+          # ditambahkan ke file ini krn gak ada fragment lain yg lebih spesifik.
+          # apply_melt_overrides.sh (idempotent, sudah diuji 4 skenario)
+          # memastikan override ini otomatis benar tiap build.
+          bash "${{ github.workspace }}/apply_melt_overrides.sh" "${SOC}/arch/arm64/configs/vendor/waipio_GKI.config"
 
       - name: Download LLVM (latest stable release)
         run: |
@@ -446,7 +451,7 @@ jobs:
 
           echo "CONFIG_TMPFS_XATTR=y" >> arch/arm64/configs/gki_defconfig
 
-          make O=out gki_defconfig vendor/waipio_GKI.config vendor/xiaomi_GKI.config vendor/ingres_GKI.config vendor/debugfs.config ${DROIDSPACES_CONFIG}
+          make O=out gki_defconfig vendor/waipio_GKI.config vendor/xiaomi_GKI.config vendor/debugfs.config ${DROIDSPACES_CONFIG}
 
           echo "::group::Sanity-check defconfig (savedefconfig)"
           # `make <fragments>` di atas cuma nge-merge & nulis .config mentah.
